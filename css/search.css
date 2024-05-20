@@ -1,0 +1,50 @@
+/*--------------------------------------------------------Search Box------------------------------------------------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #151515;
+}
+
+.container2 {
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 10px;
+    left: 470px;
+    display: flex;
+}
+
+.search-container {
+    position: relative;
+}
+.search-box {
+    padding: 7px 20px;
+    border: 1px solid #373737;
+    border-radius: 30px;
+    width: 400px;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: #121212;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+.search-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #121212;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+}
+.search-button i {
+    font-size: 20px;
+    color: #c2c2c2;
+}
